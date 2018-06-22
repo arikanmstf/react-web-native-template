@@ -1,0 +1,267 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/app/ui/Button/Native.js Render: props: { onPress } 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Button
+    onPress={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "accent": false,
+      "disabled": false,
+      "icon": null,
+      "onLongPress": null,
+      "onPress": [MockFunction],
+      "primary": false,
+      "raised": false,
+      "style": Object {},
+      "testID": null,
+      "upperCase": true,
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "accent": false,
+        "disabled": false,
+        "icon": null,
+        "onLongPress": null,
+        "onPress": [MockFunction],
+        "primary": false,
+        "raised": false,
+        "style": Object {},
+        "testID": null,
+        "upperCase": true,
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`src/app/ui/Button/Native.js Render: props: { primary } 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Button
+    primary={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "accent": false,
+      "disabled": false,
+      "icon": null,
+      "onLongPress": null,
+      "onPress": null,
+      "primary": true,
+      "raised": false,
+      "style": Object {},
+      "testID": null,
+      "upperCase": true,
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "accent": false,
+        "disabled": false,
+        "icon": null,
+        "onLongPress": null,
+        "onPress": null,
+        "primary": true,
+        "raised": false,
+        "style": Object {},
+        "testID": null,
+        "upperCase": true,
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`src/app/ui/Button/Native.js Render: props: { raised } 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Button
+    raised={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "accent": false,
+      "disabled": false,
+      "icon": null,
+      "onLongPress": null,
+      "onPress": null,
+      "primary": false,
+      "raised": true,
+      "style": Object {},
+      "testID": null,
+      "upperCase": true,
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "accent": false,
+        "disabled": false,
+        "icon": null,
+        "onLongPress": null,
+        "onPress": null,
+        "primary": false,
+        "raised": true,
+        "style": Object {},
+        "testID": null,
+        "upperCase": true,
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`src/app/ui/Button/Native.js Render: props: { text } 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Button
+    test="dummyText"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "accent": false,
+      "disabled": false,
+      "icon": null,
+      "onLongPress": null,
+      "onPress": null,
+      "primary": false,
+      "raised": false,
+      "style": Object {},
+      "test": "dummyText",
+      "testID": null,
+      "upperCase": true,
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "accent": false,
+        "disabled": false,
+        "icon": null,
+        "onLongPress": null,
+        "onPress": null,
+        "primary": false,
+        "raised": false,
+        "style": Object {},
+        "test": "dummyText",
+        "testID": null,
+        "upperCase": true,
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
