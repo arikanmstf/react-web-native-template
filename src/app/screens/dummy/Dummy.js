@@ -6,11 +6,16 @@ import type { DummyProps } from './DummyTypes';
 
 const Dummy = (props: DummyProps) => {
   const {
-    Text, Button, View, dummyField,
+    Text, Button, View, Image, dummyField,
   } = props;
+
+  const pic = {
+    uri: 'https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg',
+  };
 
   return (
     <View>
+      <Image source={pic} style={{ width: 193, height: 110 }} />
       <Text>This is page 1.</Text>
       <Text>state.dummy.dummyField: {dummyField} </Text>
       <Button

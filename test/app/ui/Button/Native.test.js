@@ -5,7 +5,7 @@ import { Button } from 'ui/native';
 describe('src/app/ui/Button/Native.js', () => {
   it('Render: props: { text }', () => {
     const props = {
-      test: 'dummyText',
+      text: 'dummyText',
     };
 
     const wrapper = shallow(<Button {...props} />);
@@ -14,6 +14,7 @@ describe('src/app/ui/Button/Native.js', () => {
 
   it('Render: props: { primary }', () => {
     const props = {
+      text: 'dummyText',
       primary: true,
     };
 
@@ -23,6 +24,7 @@ describe('src/app/ui/Button/Native.js', () => {
 
   it('Render: props: { raised }', () => {
     const props = {
+      text: 'dummyText',
       raised: true,
     };
 
@@ -32,6 +34,7 @@ describe('src/app/ui/Button/Native.js', () => {
 
   it('Render: props: { onPress }', () => {
     const props = {
+      text: 'dummyText',
       onPress: jest.fn(() => {}),
     };
 

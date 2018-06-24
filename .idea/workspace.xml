@@ -4,6 +4,13 @@
     <list default="true" id="df761996-81a4-466d-8097-e6156a4bb38b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/screens/dummy/Dummy.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/screens/dummy/Dummy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/screens/dummy/DummyNativeContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/screens/dummy/DummyNativeContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/screens/dummy/DummyWebContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/screens/dummy/DummyWebContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/native.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/native.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/app/ui/Button/Native.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/app/ui/Button/Native.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/app/ui/Button/Web.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/app/ui/Button/Web.test.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,47 +27,113 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Web.test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/app/ui/View/Web.test.js">
+      <file leaf-file-name="Web.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/ui/Image/Web.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="102">
+              <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#9#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Web.test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/app/ui/Text/Web.test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="374">
-                <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="306">
+                <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="Native.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/ui/Button/Native.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="13" column="16" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="16" />
+            <state relative-caret-position="221">
+              <caret line="13" column="16" lean-forward="true" selection-end-line="19" />
+              <folding>
+                <element signature="e#9#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Native.test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/app/ui/Button/Native.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Web.test.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/app/ui/Button/Web.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="38" column="6" lean-forward="true" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dummy.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/screens/dummy/Dummy.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+              <folding>
+                <element signature="e#9#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DummyNativeContainer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/screens/dummy/DummyNativeContainer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DummyWebContainer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/screens/dummy/DummyWebContainer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="native.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/ui/native.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="types.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/ui/Image/types.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -110,9 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.eslintrc.json" />
-        <option value="$PROJECT_DIR$/src/app/screens/dummy/DummyTypes.js" />
-        <option value="$PROJECT_DIR$/src/app/screens/dummyTwo/Dummy.js" />
         <option value="$PROJECT_DIR$/src/app/screens/dummyTwo/DummyTypes.js" />
         <option value="$PROJECT_DIR$/src/app/screens/dummy/dummyActions.js" />
         <option value="$PROJECT_DIR$/src/app/screens/dummyTwo/dummyActions.js" />
@@ -121,9 +191,6 @@
         <option value="$PROJECT_DIR$/src/app/web/App.js" />
         <option value="$PROJECT_DIR$/src/app/constants/routes/routeNames.js" />
         <option value="$PROJECT_DIR$/src/app/web/Routes.js" />
-        <option value="$PROJECT_DIR$/src/app/screens/dummy/Dummy.js" />
-        <option value="$PROJECT_DIR$/src/app/screens/dummy/DummyWebContainer.js" />
-        <option value="$PROJECT_DIR$/src/app/screens/dummy/DummyNativeContainer.js" />
         <option value="$PROJECT_DIR$/src/app/native/App.js" />
         <option value="$PROJECT_DIR$/src/app/native/Routes.js" />
         <option value="$PROJECT_DIR$/src/app/screens/dummyTwo/DummyNativeContainer.js" />
@@ -139,8 +206,6 @@
         <option value="$PROJECT_DIR$/src/app/ui/Button/index.js" />
         <option value="$PROJECT_DIR$/src/app/ui/Text/index.js" />
         <option value="$PROJECT_DIR$/src/app/ui/View/index.js" />
-        <option value="$PROJECT_DIR$/src/app/ui/index.js" />
-        <option value="$PROJECT_DIR$/src/app/ui/native.js" />
         <option value="$PROJECT_DIR$/test/app/ui/Button/Button.test.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/app/ui/Button/Types.js" />
@@ -155,12 +220,20 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/app/ui/Text/types.js" />
         <option value="$PROJECT_DIR$/test/app/ui/Text/Web.test.js" />
-        <option value="$PROJECT_DIR$/test/app/ui/Button/Web.test.js" />
         <option value="$PROJECT_DIR$/test/app/ui/View/Web.test.js" />
         <option value="$PROJECT_DIR$/test/app/ui/View/Native.test.js" />
         <option value="$PROJECT_DIR$/test/app/ui/Text/Native.test.js" />
-        <option value="$PROJECT_DIR$/test/app/ui/Button/Native.test.js" />
+        <option value="$PROJECT_DIR$/src/app/ui/Image/Native.js" />
+        <option value="$PROJECT_DIR$/src/app/ui/native.js" />
+        <option value="$PROJECT_DIR$/src/app/ui/index.js" />
+        <option value="$PROJECT_DIR$/src/app/screens/dummy/Dummy.js" />
+        <option value="$PROJECT_DIR$/src/app/screens/dummy/DummyNativeContainer.js" />
+        <option value="$PROJECT_DIR$/src/app/screens/dummy/DummyWebContainer.js" />
+        <option value="$PROJECT_DIR$/src/app/ui/Image/Web.js" />
+        <option value="$PROJECT_DIR$/src/app/ui/Image/types.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/test/app/ui/Button/Native.test.js" />
+        <option value="$PROJECT_DIR$/test/app/ui/Button/Web.test.js" />
       </list>
     </option>
   </component>
@@ -228,6 +301,21 @@
               <item name="react-web-native-template" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-web-native-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-web-native-template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+              <item name="dummy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-web-native-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-web-native-template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -244,7 +332,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="Text" type="462c0819:PsiDirectoryNode" />
+              <item name="Image" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-web-native-template" type="b2602c69:ProjectViewProjectNode" />
@@ -279,22 +367,6 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
               <item name="Button" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-web-native-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-web-native-template" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="Text" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-web-native-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-web-native-template" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="View" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -316,15 +388,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/app" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/ui/Image" />
       <recent name="$PROJECT_DIR$/test/app/ui" />
       <recent name="$PROJECT_DIR$/src/app/native" />
       <recent name="$PROJECT_DIR$/src/app/screens/dummy" />
       <recent name="$PROJECT_DIR$/src/app/screens" />
-      <recent name="$PROJECT_DIR$/src/app/ui" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -430,7 +502,7 @@
       <workItem from="1529700406503" duration="228000" />
       <workItem from="1529700980039" duration="4653000" />
       <workItem from="1529872220708" duration="931000" />
-      <workItem from="1529873285288" duration="168000" />
+      <workItem from="1529873285288" duration="1746000" />
     </task>
     <servers />
   </component>
@@ -467,7 +539,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32156000" />
+    <option name="totallyTimeSpent" value="33734000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="729" extended-state="6" />
@@ -506,34 +578,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/app/screens/dummy/DummyNativeContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="81" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/web/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/native/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/screens/dummyTwo/Dummy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/screens/dummyTwo/DummyNativeContainer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -629,20 +673,6 @@
     <entry file="file://$PROJECT_DIR$/src/app/ui/Text/native/index.js" />
     <entry file="file://$PROJECT_DIR$/src/app/ui/View/index.js" />
     <entry file="file://$PROJECT_DIR$/src/app/ui/Text/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/app/screens/dummy/Dummy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/screens/dummy/DummyWebContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/ui/Button/index.js" />
     <entry file="file://$PROJECT_DIR$/test/app/ui/Button/__snapshots__/Button.test.js.snap" />
     <entry file="file://$PROJECT_DIR$/node_modules/react-native/Libraries/react-native/react-native-implementation.js">
@@ -659,20 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/ui/native.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/ui/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/ui/Text/Native.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -684,20 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/ui/Button/Web.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/ui/Button/Native.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -722,34 +724,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/app/ui/View/Web.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/app/ui/Text/Native.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/app/ui/Button/Web.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/app/ui/Button/Native.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -760,13 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/app/ui/View/Native.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/ui/View/Web.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
@@ -774,10 +748,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/ui/View/Native.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        <state relative-caret-position="217">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -791,10 +765,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/test/app/ui/View/Web.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="16" />
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/app/ui/View/Native.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/ui/View/Native.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="6" lean-forward="true" selection-end-line="24" />
+          <folding>
+            <element signature="e#9#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/ui/Button/Web.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="10" lean-forward="true" selection-end-line="24" />
+          <folding>
+            <element signature="e#9#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/ui/Image/Native.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/ui/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/screens/dummy/DummyNativeContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/screens/dummy/DummyWebContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/ui/native.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/screens/dummy/Dummy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+          <folding>
+            <element signature="e#9#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/ui/Image/Web.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding>
+            <element signature="e#9#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/ui/Image/types.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -805,11 +877,41 @@
         </state>
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="374">
-            <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="306">
+            <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/ui/Button/Native.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="16" lean-forward="true" selection-end-line="19" />
+          <folding>
+            <element signature="e#9#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/app/ui/Button/Native.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/app/ui/Button/Web.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="38" column="6" lean-forward="true" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

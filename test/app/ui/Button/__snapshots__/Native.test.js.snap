@@ -6,6 +6,7 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Button
     onPress={[MockFunction]}
+    text="dummyText"
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -28,6 +29,7 @@ ShallowWrapper {
       "raised": false,
       "style": Object {},
       "testID": null,
+      "text": "dummyText",
       "upperCase": true,
     },
     "ref": null,
@@ -49,6 +51,7 @@ ShallowWrapper {
         "raised": false,
         "style": Object {},
         "testID": null,
+        "text": "dummyText",
         "upperCase": true,
       },
       "ref": null,
@@ -72,6 +75,7 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Button
     primary={true}
+    text="dummyText"
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -94,6 +98,7 @@ ShallowWrapper {
       "raised": false,
       "style": Object {},
       "testID": null,
+      "text": "dummyText",
       "upperCase": true,
     },
     "ref": null,
@@ -115,6 +120,7 @@ ShallowWrapper {
         "raised": false,
         "style": Object {},
         "testID": null,
+        "text": "dummyText",
         "upperCase": true,
       },
       "ref": null,
@@ -138,6 +144,7 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Button
     raised={true}
+    text="dummyText"
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -160,6 +167,7 @@ ShallowWrapper {
       "raised": true,
       "style": Object {},
       "testID": null,
+      "text": "dummyText",
       "upperCase": true,
     },
     "ref": null,
@@ -181,6 +189,7 @@ ShallowWrapper {
         "raised": true,
         "style": Object {},
         "testID": null,
+        "text": "dummyText",
         "upperCase": true,
       },
       "ref": null,
@@ -203,7 +212,7 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Button
-    test="dummyText"
+    text="dummyText"
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -225,8 +234,8 @@ ShallowWrapper {
       "primary": false,
       "raised": false,
       "style": Object {},
-      "test": "dummyText",
       "testID": null,
+      "text": "dummyText",
       "upperCase": true,
     },
     "ref": null,
@@ -247,8 +256,8 @@ ShallowWrapper {
         "primary": false,
         "raised": false,
         "style": Object {},
-        "test": "dummyText",
         "testID": null,
+        "text": "dummyText",
         "upperCase": true,
       },
       "ref": null,

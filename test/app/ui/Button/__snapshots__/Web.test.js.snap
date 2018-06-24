@@ -6,6 +6,7 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Button
     onPress={[MockFunction]}
+    text="dummyText"
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -19,13 +20,13 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "children": undefined,
+      "children": "dummyText",
       "color": undefined,
       "onPress": [MockFunction],
       "variant": undefined,
     },
     "ref": null,
-    "rendered": null,
+    "rendered": "dummyText",
     "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
@@ -34,13 +35,13 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "children": undefined,
+        "children": "dummyText",
         "color": undefined,
         "onPress": [MockFunction],
         "variant": undefined,
       },
       "ref": null,
-      "rendered": null,
+      "rendered": "dummyText",
       "type": [Function],
     },
   ],
@@ -60,6 +61,7 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Button
     primary={true}
+    text="dummyText"
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -73,12 +75,12 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "children": undefined,
+      "children": "dummyText",
       "color": "primary",
       "variant": undefined,
     },
     "ref": null,
-    "rendered": null,
+    "rendered": "dummyText",
     "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
@@ -87,12 +89,12 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "children": undefined,
+        "children": "dummyText",
         "color": "primary",
         "variant": undefined,
       },
       "ref": null,
-      "rendered": null,
+      "rendered": "dummyText",
       "type": [Function],
     },
   ],
@@ -112,6 +114,7 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Button
     raised={true}
+    text="dummyText"
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -125,12 +128,12 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "children": undefined,
+      "children": "dummyText",
       "color": undefined,
       "variant": "contained",
     },
     "ref": null,
-    "rendered": null,
+    "rendered": "dummyText",
     "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
@@ -139,12 +142,12 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "children": undefined,
+        "children": "dummyText",
         "color": undefined,
         "variant": "contained",
       },
       "ref": null,
-      "rendered": null,
+      "rendered": "dummyText",
       "type": [Function],
     },
   ],
@@ -163,7 +166,7 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Button
-    test="dummyText"
+    text="dummyText"
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -177,13 +180,12 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "children": undefined,
+      "children": "dummyText",
       "color": undefined,
-      "test": "dummyText",
       "variant": undefined,
     },
     "ref": null,
-    "rendered": null,
+    "rendered": "dummyText",
     "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
@@ -192,13 +194,12 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "children": undefined,
+        "children": "dummyText",
         "color": undefined,
-        "test": "dummyText",
         "variant": undefined,
       },
       "ref": null,
-      "rendered": null,
+      "rendered": "dummyText",
       "type": [Function],
     },
   ],
