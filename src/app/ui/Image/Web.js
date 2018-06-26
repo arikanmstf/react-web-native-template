@@ -2,7 +2,7 @@
 import React from 'react';
 import type { ImageProps } from './types';
 
-const Button = (props: ImageProps) => {
+const Image = (props: ImageProps) => {
   const { source, alt, ...other } = props;
   return (
     <img
@@ -13,4 +13,4 @@ const Button = (props: ImageProps) => {
   );
 };
 
-export default Button;
+export default Image;

@@ -1,5 +1,5 @@
 {
-  "presets": ["stage-0", "react", "flow", "babel-preset-expo"],
+  "presets": ["es2015", "stage-0", "react", "flow", "babel-preset-expo"],
   "env": {
     "development": {
       "plugins": ["transform-react-jsx-source"]
