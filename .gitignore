@@ -71,3 +71,7 @@ fabric.properties
 # *.iml
 # modules.xml
 
+.idea/misc.xml
+.idea/modules.xml
+.idea/template-app.iml
+.idea/inspectionProfiles/Project_Default.xml
