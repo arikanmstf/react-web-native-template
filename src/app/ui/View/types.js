@@ -1,6 +1,7 @@
 // @flow
-import React from 'react';
+import * as React from 'react';
 
 export type ViewProps = {
-  children: React.DOM
+  children?: React.Node,
+  style?: Object,
 };

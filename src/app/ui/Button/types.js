@@ -1,6 +1,6 @@
 // @flow
 export type ButtonProps = {
-  onPress: Function,
+  onClick?: Function,
   text?: string,
   primary?: boolean,
   raised?: boolean,

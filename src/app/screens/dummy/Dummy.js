@@ -1,11 +1,11 @@
 // @flow
-import React, { Component } from 'react';
+import * as React from 'react';
 import push from 'helpers/history/push';
 import { DUMMY_TWO } from 'constants/routes/routeNames';
 import type { DummyProps } from './DummyTypes';
 
 // eslint-disable-next-line
-class Dummy extends Component<DummyProps> {
+class Dummy extends React.Component<DummyProps> {
   render() {
     const {
       Text, Button, View, Image, dummyField,

@@ -1,9 +1,11 @@
 // @flow
 import React from 'react';
 import WebButton from '@material-ui/core/Button';
+
+import type { Node } from 'react';
 import type { ButtonProps } from './types';
 
-const Button = (props: ButtonProps) => {
+const Button = (props: ButtonProps): Node => {
   const {
     text, primary, raised, ...other
   } = props;
