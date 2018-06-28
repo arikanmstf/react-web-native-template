@@ -1,18 +1,12 @@
-import React from 'react';
+import { connect } from 'helpers/connect';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { HOME, DUMMY_TWO } from 'constants/routes/routeNames';
-
 // Screens
 import DummyScreen from 'screens/dummy/DummyWebContainer';
 import DummyScreenTwo from 'screens/dummyTwo/DummyWebContainer';
+import Routes from '../Routes';
 
-const Routes = () => (
-  <Router>
-    <Switch>
-      <Route exact path={HOME} component={DummyScreen} />
-      <Route exact path={DUMMY_TWO} component={DummyScreenTwo} />
-    </Switch>
-  </Router>
-);
+const mapRouteToProps = () => ({
+  DummyScreen, DummyScreenTwo, Router, Switch, Route,
+});
 
-export default Routes;
+export default connect(mapRouteToProps)(Routes);

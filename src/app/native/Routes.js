@@ -1,18 +1,12 @@
-import React from 'react';
+import { connect } from 'helpers/connect';
 import { MemoryRouter as Router, Switch, Route } from 'react-router-native';
-import { HOME, DUMMY_TWO } from 'constants/routes/routeNames';
-
 // Screens
 import DummyScreen from 'screens/dummy/DummyNativeContainer';
 import DummyScreenTwo from 'screens/dummyTwo/DummyNativeContainer';
+import Routes from '../Routes';
 
-const Routes = () => (
-  <Router>
-    <Switch>
-      <Route exact path={HOME} component={DummyScreen} />
-      <Route exact path={DUMMY_TWO} component={DummyScreenTwo} />
-    </Switch>
-  </Router>
-);
+const mapRouteToProps = () => ({
+  DummyScreen, DummyScreenTwo, Router, Switch, Route,
+});
 
-export default Routes;
+export default connect(mapRouteToProps)(Routes);
