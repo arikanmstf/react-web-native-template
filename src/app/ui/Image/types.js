@@ -4,5 +4,4 @@ export type ImageProps = {
     uri: string,
   },
   alt?: ?string,
-  style?: ?Object,
 };

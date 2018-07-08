@@ -277,7 +277,7 @@ ShallowWrapper {
           }
         }
       >
-        <Routes />
+        <Unknown />
       </MuiThemeProvider>,
       "store": Object {
         "dispatch": [Function],
@@ -293,7 +293,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "children": <Routes />,
+        "children": <Unknown />,
         "theme": Object {
           "breakpoints": Object {
             "between": [Function],
@@ -831,7 +831,7 @@ ShallowWrapper {
             }
           }
         >
-          <Routes />
+          <Unknown />
         </MuiThemeProvider>,
         "store": Object {
           "dispatch": [Function],
@@ -847,7 +847,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "children": <Routes />,
+          "children": <Unknown />,
           "theme": Object {
             "breakpoints": Object {
               "between": [Function],
