@@ -8,7 +8,7 @@ import thunk from 'redux-thunk';
 import reducers from 'store/reducers';
 
 // Theme
-import { ThemeProvider } from 'react-native-material-ui';
+import { ThemeContext, getTheme } from 'react-native-material-ui';
 import * as COLOR from 'constants/theme/color';
 
 // Routes
@@ -28,9 +28,9 @@ const uiTheme = {
 const App = () => {
   return (
     <Provider store={createStoreWithMiddleware(reducers)}>
-      <ThemeProvider uiTheme={uiTheme}>
+      <ThemeContext.Provider value={getTheme(uiTheme)}>
         <Routes />
-      </ThemeProvider>
+      </ThemeContext.Provider>
     </Provider>
   );
 };
